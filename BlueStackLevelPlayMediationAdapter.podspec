@@ -9,7 +9,7 @@ s.platform = :ios, '12.2'
 s.summary = 'BlueStack adapter used for mediation with the Unity LevelPlay'
 s.homepage = "https://developers.bluestack.app/"
 s.swift_version = '5'
-s.source_files = ["BlueStackLevelPlayAdapter/*.{h,m,swift}"]
+s.source_files = ["BlueStackLevelPlayMediationAdapter.xcframework/*/*/Headers/*.{h,m,swift}"]
 
 s.source = { :git => 'https://github.com/azerion/BlueStack-LevelPlay-Mediation.git', :tag => "#{s.version}" }
 s.documentation_url = 'https://developers.bluestack.app/ios/mediation/secondary/unity-levelplay'
