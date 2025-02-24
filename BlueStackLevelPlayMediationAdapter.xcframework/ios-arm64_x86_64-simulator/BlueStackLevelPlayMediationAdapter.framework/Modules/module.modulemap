@@ -1,0 +1,11 @@
+framework module BlueStackLevelPlayMediationAdapter {
+  umbrella header "BlueStackLevelPlayMediationAdapter.h"
+  export *
+
+  module * { export * }
+}
+
+module BlueStackLevelPlayMediationAdapter.Swift {
+  header "BlueStackLevelPlayMediationAdapter-Swift.h"
+  requires objc
+}
