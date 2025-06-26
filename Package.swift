@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "BlueStackLevelPlayMediationAdapter",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "BlueStackLevelPlayMediationAdapter",
@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.1.1"),
+        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.1.4"),
     ],
     targets: [
         .binaryTarget(
