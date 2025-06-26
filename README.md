@@ -10,8 +10,8 @@ Using BlueStackLevelPlayMediationAdapter you will be able to show BlueStack ads 
 - Rewarded
 
 ## Requirements
-- Xcode 14.0
-- iOS: 12.2
+- Xcode 15.1 or higher
+- iOS: 13.0 or higher
 
 ## Integrate BlueStackLevelPlayMediationAdapter in your application project
 

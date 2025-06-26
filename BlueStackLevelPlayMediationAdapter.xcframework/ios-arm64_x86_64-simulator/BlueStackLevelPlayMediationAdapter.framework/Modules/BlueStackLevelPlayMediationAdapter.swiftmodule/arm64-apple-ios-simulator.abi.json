@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BlueStackLevelPlayMediationAdapter",
+    "printedName": "BlueStackLevelPlayMediationAdapter",
     "children": [
       {
         "kind": "Import",
@@ -558,17 +558,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "RewardedAdDelegate",
-            "printedName": "RewardedAdDelegate",
-            "usr": "c:@M@BlueStackSDK@objc(pl)RewardedAdDelegate",
-            "mangledName": "$s12BlueStackSDK18RewardedAdDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "FullScreenDelegate",
-            "printedName": "FullScreenDelegate",
-            "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenDelegate",
-            "mangledName": "$s12BlueStackSDK18FullScreenDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -618,6 +618,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RewardedAdDelegate",
+            "printedName": "RewardedAdDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)RewardedAdDelegate",
+            "mangledName": "$s12BlueStackSDK18RewardedAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullScreenDelegate",
+            "printedName": "FullScreenDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenDelegate",
+            "mangledName": "$s12BlueStackSDK18FullScreenDelegateP"
           }
         ]
       },
@@ -1066,10 +1080,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "BannerViewDelegate",
-            "printedName": "BannerViewDelegate",
-            "usr": "c:@M@BlueStackSDK@objc(pl)BannerViewDelegate",
-            "mangledName": "$s12BlueStackSDK18BannerViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1119,6 +1140,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BannerViewDelegate",
+            "printedName": "BannerViewDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)BannerViewDelegate",
+            "mangledName": "$s12BlueStackSDK18BannerViewDelegateP"
           }
         ]
       },
@@ -1283,6 +1311,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1521,6 +1563,22 @@
         "moduleName": "BlueStackLevelPlayMediationAdapter",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2033,17 +2091,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "InterstitialAdDelegate",
-            "printedName": "InterstitialAdDelegate",
-            "usr": "c:@M@BlueStackSDK@objc(pl)InterstitialAdDelegate",
-            "mangledName": "$s12BlueStackSDK22InterstitialAdDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "FullScreenDelegate",
-            "printedName": "FullScreenDelegate",
-            "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenDelegate",
-            "mangledName": "$s12BlueStackSDK18FullScreenDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2093,6 +2151,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InterstitialAdDelegate",
+            "printedName": "InterstitialAdDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)InterstitialAdDelegate",
+            "mangledName": "$s12BlueStackSDK22InterstitialAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullScreenDelegate",
+            "printedName": "FullScreenDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenDelegate",
+            "mangledName": "$s12BlueStackSDK18FullScreenDelegateP"
           }
         ]
       }
@@ -2101,140 +2173,140 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 13,
       "value": "\"bs_latitude\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 14,
       "value": "\"bs_longitude\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 17,
       "value": "\"bs_consent_flag\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 7,
-      "value": "\"5.0.1\""
+      "value": "\"5.1.4\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 9,
-      "value": "\"5.0.1.0\""
+      "value": "\"5.1.4.1\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 7,
       "value": "\"appid\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 13,
       "value": "\"placementid\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 15,
       "value": "\"adapterConfig\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 13,
       "value": "\"appSettings\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 44,
       "value": "\"BlueStack appId not found in server params\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 50,
       "value": "\"BlueStack placementId not found in server params\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 976,
       "length": 19,
       "value": "\"Ad loading failed\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 25,
       "value": "\"Ad is not ready to show\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "StringLiteral",
       "offset": 1104,
       "length": 19,
       "value": "\"Ad failed to show\""
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1208,
       "length": 4,
       "value": "-100"
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1252,
       "length": 4,
       "value": "-101"
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1302,
       "length": 4,
       "value": "-102"
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1345,
       "length": 4,
       "value": "-103"
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1392,
       "length": 4,
       "value": "-104"
     },
     {
-      "filePath": "\/Users\/bishnu\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/for-ios\/BlueStackLevelPlayMediationAdapter\/BlueStackLevelPlayMediationAdapter\/BlueStackAdapterConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 1437,
       "length": 4,

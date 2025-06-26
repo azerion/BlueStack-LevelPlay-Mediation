@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackLevelPlayMediationAdapter'
-s.version = '5.1.1.0'
+s.version = '5.1.4.1'
 s.static_framework = true
 s.license = 'MIT'
-s.platform = :ios, '12.2'
+s.platform = :ios, '13.0'
 s.summary = 'BlueStack adapter used for mediation with the Unity LevelPlay'
 s.homepage = "https://developers.bluestack.app/"
 s.swift_version = '5'
@@ -14,7 +14,7 @@ s.source_files = ["BlueStackLevelPlayMediationAdapter.xcframework/*/*/Headers/*.
 s.source = { :git => 'https://github.com/azerion/BlueStack-LevelPlay-Mediation.git', :tag => "#{s.version}" }
 s.documentation_url = 'https://developers.bluestack.app/ios/mediation/secondary/unity-levelplay'
 s.vendored_frameworks = "BlueStackLevelPlayMediationAdapter.xcframework"
-s.ios.deployment_target = '12.2'
+s.ios.deployment_target = '13.0'
 
 s.dependency 'BlueStack-SDK', '>=5.1.1'
 s.dependency 'IronSourceSDK', '8.5.0'
